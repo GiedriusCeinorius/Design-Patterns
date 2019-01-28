@@ -16,21 +16,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="HomeServlet.java" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="HomeServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/gce/patterns/interceptingfilter/HomeServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="187">
+              <caret line="11" column="46" lean-forward="true" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserAgentFilter.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UserAgentFilter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/gce/patterns/interceptingfilter/UserAgentFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="136">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -67,18 +70,16 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2442" />
-    <option name="y" value="116" />
-    <option name="width" value="1457" />
-    <option name="height" value="880" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -106,14 +107,20 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="C:/My Software/JAVA PAPILDOMI/Servlet jars/javax.servlet.jsp.jstl-api-1.2.1.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.35287356" />
     <property name="settings.editor.selected.configurable" value="com.zeroturnaround.javarebel.idea.plugin.settings.startup.StartupConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -170,7 +177,8 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="Tomcat 8.5.37" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.37" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="Tomcat 8.5.37" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.2" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment />
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_5_37_interceptingfilter_2" />
@@ -180,6 +188,39 @@
       <predefined_log_file id="Tomcat Manager" enabled="false" />
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52731" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -260,62 +301,64 @@
       <option name="presentableId" value="Default" />
       <updated>1548685091395</updated>
       <workItem from="1548685095959" duration="667000" />
+      <workItem from="1548709835082" duration="582000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="667000" />
+    <option name="totallyTimeSpent" value="1249000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="bottom" id="DB Execution Console" order="1" />
+      <window_info anchor="bottom" id="TODO" order="11" sideWeight="0.49840087" weight="0.28896105" />
+      <window_info anchor="bottom" id="Messages" order="17" sideWeight="0.55810237" visible="true" weight="0.32838285" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" sideWeight="0.4978678" weight="0.32842106" />
       <window_info anchor="bottom" id="Event Log" order="18" sideWeight="0.3944563" side_tool="true" weight="0.25263157" />
-      <window_info active="true" anchor="bottom" x="1945" y="311" width="1870" height="361" id="Application Servers" order="7" sideWeight="0.5522388" visible="true" weight="0.26842105" />
-      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.1369936" />
+      <window_info anchor="bottom" x="1945" y="311" width="1870" height="361" id="Application Servers" order="7" sideWeight="0.5522388" weight="0.28877887" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.13691376" />
       <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="14" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.60554373" weight="0.27157894" />
+      <window_info anchor="bottom" id="Version Control" order="16" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="19" sideWeight="0.52878463" weight="0.26526317" />
       <window_info id="Designer" order="6" />
-      <window_info id="Project Explorer" order="2" weight="0.32995737" />
-      <window_info id="Job Explorer" order="3" weight="0.32995737" />
-      <window_info anchor="bottom" id="Console" order="0" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.119942196" visible="true" weight="0.18532526" />
+      <window_info id="Web" order="13" sideWeight="0.87388724" side_tool="true" weight="0.16311301" />
       <window_info anchor="right" id="Database" order="6" weight="0.38539445" />
       <window_info id="Structure" order="4" sideWeight="0.4924925" side_tool="true" weight="0.32995737" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info id="UI Designer" order="8" />
       <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.6060768" weight="0.32" />
-      <window_info anchor="bottom" id="TODO" order="11" sideWeight="0.49840087" weight="0.28896105" />
-      <window_info id="DB Browser" order="1" sideWeight="0.5075075" weight="0.32995737" />
-      <window_info anchor="bottom" id="Messages" order="17" sideWeight="0.55810237" weight="0.32900432" />
-      <window_info anchor="right" id="Palette&#9;" order="9" />
-      <window_info id="Image Layers" order="7" />
-      <window_info anchor="bottom" id="Java Enterprise" order="14" sideWeight="0.4978678" weight="0.32842106" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="bottom" id="Version Control" order="16" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.60554373" weight="0.27157894" />
-      <window_info anchor="bottom" id="Terminal" order="19" sideWeight="0.52878463" weight="0.26526317" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.119942196" visible="true" weight="0.18283582" />
-      <window_info id="Web" order="13" sideWeight="0.87388724" side_tool="true" weight="0.16311301" />
-      <window_info anchor="right" id="Theme Preview" order="10" />
       <window_info id="Favorites" order="10" sideWeight="0.81377155" side_tool="true" weight="0.33582088" />
-      <window_info anchor="bottom" id="Analyze Dataflow to" order="2" weight="0.32947367" />
+      <window_info anchor="bottom" id="DB Execution Console" order="1" />
       <window_info id="Persistence" order="9" sideWeight="0.8800578" side_tool="true" weight="0.18283582" />
-      <window_info anchor="bottom" id="Message" order="10" />
-      <window_info anchor="bottom" id="JRebel Executor" order="4" sideWeight="0.83" weight="0.32900432" />
-      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
-      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="0" side_tool="true" weight="0.32995737" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
-      <window_info anchor="right" id="Bean Validation" order="11" weight="0.32995737" />
-      <window_info anchor="bottom" id="Find" order="8" sideWeight="0.4936034" weight="0.41789475" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info id="JavaEE:App" order="12" sideWeight="0.8783383" side_tool="true" weight="0.16311301" />
+      <window_info id="DB Browser" order="1" sideWeight="0.5075075" weight="0.32995737" />
+      <window_info id="Project Explorer" order="2" weight="0.32995737" />
+      <window_info id="Capture Tool" order="14" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info id="JRebel" order="5" sideWeight="0.88022816" side_tool="true" weight="0.20842217" />
       <window_info anchor="right" id="CDI" order="8" weight="0.32995737" />
-      <window_info anchor="bottom" id="Dependency Viewer" order="3" weight="0.5064935" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="0" side_tool="true" weight="0.32995737" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="JRebel Executor" order="4" sideWeight="0.83" weight="0.32900432" />
       <window_info id="EJB" order="11" sideWeight="0.81377155" side_tool="true" weight="0.33582088" />
+      <window_info id="Job Explorer" order="3" weight="0.32995737" />
       <window_info anchor="bottom" id="JRebel Console" order="9" sideWeight="0.17" side_tool="true" weight="0.36626506" />
+      <window_info anchor="bottom" id="Find" order="8" sideWeight="0.4936034" weight="0.41789475" />
+      <window_info anchor="bottom" id="Analyze Dataflow to" order="2" weight="0.32947367" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="3" weight="0.5064935" />
+      <window_info anchor="bottom" id="Message" order="10" />
+      <window_info id="JavaEE:App" order="12" sideWeight="0.8783383" side_tool="true" weight="0.16311301" />
+      <window_info id="Image Layers" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info anchor="bottom" id="Console" order="0" />
+      <window_info anchor="right" id="Bean Validation" order="11" weight="0.32995737" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,6 +368,16 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/gce/patterns/interceptingfilter/HomeServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gce/patterns/interceptingfilter/UserAgentFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -334,17 +387,99 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gce/patterns/interceptingfilter/HomeServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="187">
+          <caret line="11" column="46" lean-forward="true" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gce/patterns/interceptingfilter/UserAgentFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>interceptingfilter:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>interceptingfilter</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.35287356" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
